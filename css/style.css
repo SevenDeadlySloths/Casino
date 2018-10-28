@@ -1,0 +1,158 @@
+/*-------------------------------------------------------------*/
+/*
+	HEADER
+*/
+
+.headerBox{
+	position: relative;
+
+	width:100vw;
+	height:50px;
+	margin-bottom: 100px;
+}
+
+.coinsImage{
+	height:20px;
+	width:20px;
+}
+
+/*
+	HEADER
+*/
+
+/*-------------------------------------------------------------*/
+
+/*
+	BODY
+*/
+
+#hi{
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+}
+
+/*
+	BODY
+*/
+/*-------------------------------------------------------------*/
+
+/*
+	INDEX
+*/
+
+.container{
+	margin-top: 100px;
+	display: inline-flex;
+}
+
+
+.index-games1{
+	position: relative;
+	width:700px;
+	height:500px;
+}
+
+.index-games2{
+	position: relative;
+	width:700px;
+	height:500px;
+}
+.serviceBox{
+	position: relative;
+    background: #1a1a1a;
+    padding: 30px 25px;
+    transition: all 0.6s ease 0s;
+    width:700px;
+    height:500px;	
+}
+
+.serviceBox:hover{
+/*    background: linear-gradient(to left, #0000ff 0%, #0099ff 100%); */
+}
+.serviceBoxIcon{
+	position: relative;
+	margin-top:-5px;
+	margin-left:-5px;
+	width: 100px;
+	height:100px;
+}
+.serviceBoxIcon2{
+	position: relative;
+	margin-top:-17px;	
+	width: 90px;
+	height:90px;
+}
+.serviceBox .service-icon{
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    font-size: 74px;
+    font-weight: bold;
+    color: #26b9d3;
+    text-align: center;
+}
+.serviceBox .title{
+    font-size: 50px;
+    color: #fff;
+    line-height: 50px;
+    margin: 30px 0;
+}
+.serviceBox .sub-title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.serviceBox .description{
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    margin: 20px 0 30px 0px;
+}
+.serviceBox .read{
+	text-decoration: none;
+    display: inline-block;
+    width: 124px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    color: #2795a8;
+    background: #fff;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .read:hover{
+    color: #fff;
+}
+.serviceBox .read:before {
+	text-decoration: none;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #26b9d3;
+    color: #fff;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox .read:hover:before {
+    top: 0;
+}
+@media screen and (max-width: 990px){
+    .serviceBox{ margin-bottom: 30px; }
+    .serviceBox .description{ margin: 20px 0; }
+}
+/*
+	INDEX
+*/
+/*-------------------------------------------------------------*/
