@@ -6,6 +6,6 @@ if(isset($_SESSION['ID'])){
 	
 }
 
-header("location:index.php");
+header("location:index.html");
 
 ?>
